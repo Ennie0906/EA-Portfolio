@@ -1,0 +1,19 @@
+
+
+/* Navbar */
+.nav-height{
+    height: 100px;
+}
+
+
+
+/* Navbar link */
+
+.nav-border{
+    border: 2px solid black;
+  
+}
+
+.nav-pad{
+    padding-left: 5px;
+}
