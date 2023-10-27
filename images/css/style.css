@@ -1,8 +1,7 @@
 
-
 /* Navbar */
 .nav-height{
-    height: 100px;
+    height: 80px;
 }
 
 
@@ -11,9 +10,63 @@
 
 .nav-border{
     border: 2px solid black;
-  
 }
 
-.nav-pad{
-    padding-left: 5px;
+.icon-size{
+    font-size: larger;
+}
+
+.space{
+    padding-left: 15px;
+}
+
+.font-size{
+    font-size: 1.4rem;
+}
+
+/* Background color */
+
+.first-bg{
+    background-color: aqua;
+}
+
+/* Heading */
+.heading-position{
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+}
+
+.para-position{
+    position: relative;
+    top: 220px;
+    margin-left: 50px;
+}
+
+/* Row */
+.row-style{
+    height: 80vh;
+    
+}
+
+/* Second Side */
+
+.second-side{
+    position: relative;
+    top: 50%;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+height: 50%;
+}
+
+.nav-item{
+   
+        flex: 1;
+        display: flex;
+        align-items: center;
+    
 }
