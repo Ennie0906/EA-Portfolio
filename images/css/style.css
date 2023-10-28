@@ -39,8 +39,8 @@
 
 .para-position{
     position: relative;
-    top: 220px;
-    margin-left: 50px;
+    top: 100px;
+    margin-left: 5px;
 }
 
 /* Row */
@@ -57,10 +57,11 @@
 }
 
 .navbar-nav{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-height: 50%;
+
 }
 
 .nav-item{
