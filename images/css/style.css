@@ -1,3 +1,11 @@
+/* Google Fonts */
+
+/* 
+font-family: 'Hind Guntur', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Sansita', sans-serif; 
+*/
+
 
 /* Navbar */
 .nav-height{
@@ -27,20 +35,32 @@
 /* Background color */
 
 .first-bg{
-    background-color: aqua;
+    background-color: #142d4c
 }
 
 /* Heading */
-.heading-position{
-    position: relative;
-    top: 200px;
-    margin-left: 50px;
-}
 
 .para-position{
     position: relative;
-    top: 100px;
-    margin-left: 5px;
+    top: 70px;
+    left: 10px;
+}
+
+.para-position h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+color: #ececec;
+padding-bottom:10px ;
+}
+
+/* Para heading */
+
+.para-position p {
+    font-family: 'Sansita', sans-serif; 
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 2.6rem;
+    color: #9fd3c7;
 }
 
 /* Row */
@@ -49,6 +69,17 @@
     
 }
 
+/* Name Color */
+
+.name-color{
+    color: #9fd3c7;
+}
+
+/* P Color */
+
+.p-color{
+    color:#ececec
+}
 /* Second Side */
 
 .second-side{
